@@ -1,0 +1,162 @@
+/* Global Styles */
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 2.0;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    background-color: #e6f2ff;
+    font-family: Arial, sans-serif; /* Change font family */
+    font-size: 25px;
+    line-height: 2.0;
+    padding: 20px;
+}
+
+#video {
+    width: 40%;
+    height: auto;
+    max-width: 50%;
+}
+
+.bio-container {
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center;
+    margin-top: 20px; /* Add margin-top for spacing */
+}
+
+.bio-text {
+    flex: 1; /* Let the text take available space */
+}
+
+.bio-photo {
+    margin-left: 20px; /* Add margin to the left for spacing */
+}
+
+.bio-photo img {
+    max-width: 200px; /* Set max width for the image */
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.address p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.social-media img {
+    max-width: 20px;
+    margin-right: 5px;
+}
+
+.map {
+    flex: 1;
+    text-align: right;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.appreciation {
+    text-align: center;
+}
+
+.appreciation p {
+    margin-bottom: 10px;
+}
+
+/* Additional Styles for Formspree Contact Form */
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
